@@ -1,0 +1,22 @@
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <h1>What do you want to name the ramen?</h1>
+    <input type="text" id="ramenName">
+    <button onclick="addRamenName()">Add Ramen Name</button>
+    <script>
+      function addRamenName(){
+        var x = document.getElementById('ramenName').value;
+        localStorage.setItem("ramenName", x);
+        location.href= "myRamenShop2.html";
+      }
+      //Ask the boss for the name of the ramen
+      //Go to another page
+      //Ask the boss for the price of the ramen
+      //Go to another page
+      //On the third page and add all of these things to the object called myramenshop and display to screen.
+      </script>
+  </body>
+</html>

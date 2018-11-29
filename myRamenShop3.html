@@ -1,0 +1,16 @@
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <h1 id="theNewResult"></h1>
+    <script>
+      var x = localStorage.getItem('ramenName');
+      var y = localStorage.getItem('ramenPrice');
+      var myramenshop = {};
+      myramenshop["name"] = x;
+      myramenshop["price"] = y;
+      document.getElementById('theNewResult').innerHTML = myramenshop.name + ", " + "$" + myramenshop.price;
+      </script>
+  </body>
+</html>
